@@ -12,8 +12,6 @@ from pydantic import BaseModel
 import pickle
 import json
 import uvicorn
-from pyngrok import ngrok
-import nest_asyncio
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
